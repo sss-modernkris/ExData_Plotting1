@@ -3,6 +3,7 @@
 ## plot3
 #
 # read the data from the file 
+# note: copy the "household_power_consumptioin.txt" file to working directory
 #
 map<-read.table("household_power_consumption.txt",header=T,sep=";")
 head(map)
